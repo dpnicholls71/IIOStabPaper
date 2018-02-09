@@ -1,0 +1,15 @@
+% HOW_TO_MAKE_FIGURE
+
+To create Figure 2:
+
+1. Run test_helmholtz_threelayer.m:
+  a. With Eps = 0.005 (uncomment line 9, comment lines 10, 11, 12)
+  b. With Eps = 0.01  (uncomment line 10, comment lines 9, 11, 12)
+  c. With Eps = 0.05  (uncomment line 11, comment lines 9, 10, 12)
+  d. With Eps = 0.1   (uncomment line 12, comment lines 9, 10, 11)
+  
+2. Run make_plots.m with 4 files:
+  a. three_10_0.005.mat
+  b. three_10_0.01.mat
+  c. three_10_0.05.mat
+  d. three_10_0.1.mat
